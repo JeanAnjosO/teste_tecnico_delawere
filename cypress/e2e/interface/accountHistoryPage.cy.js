@@ -8,7 +8,7 @@ describe('Tela de Account History', () => {
     })
     
     
-    it('Valida se as entradas de crédito estão com valores entre 0.01 e 99999999.99', () => { 
+    it.only('Valida se as entradas de crédito estão com valores entre 0.01 e 99999999.99', () => { 
         
         cy.visit('bank/showAccount?listAccounts=800003')
 

@@ -7,10 +7,15 @@
     "cy:open": "cypress open",
     "test": "cypress run"
   },
-  "keywords": ["Teste técnico", "delawere", "E2E Testing"],
+  "keywords": [
+    "Teste técnico",
+    "delawere",
+    "E2E Testing"
+  ],
   "author": "Jean Anjos",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.6.6"
+    "cypress": "^13.6.6",
+    "moment": "^2.30.1"
   }
 }
