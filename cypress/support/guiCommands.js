@@ -6,7 +6,7 @@ Cypress.Commands.add('login', (
 
     cy.get('#uid').type(user)
     cy.get('#passw').type(senha)
-    cy.get('[name="btnSubmit"]').click()
+    cy.get('[name="btnSubmit"]').click()    
 })
 
 Cypress.Commands.add('preencheContasTransfer', (indexFromAccount, indexToAccount, valueAmount) => {

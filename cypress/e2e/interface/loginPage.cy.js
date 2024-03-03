@@ -8,7 +8,8 @@ describe('Tela de login - Resultados com sucesso', () => {
     })
     
     
-    it('Valida login com credenciais válidas', () => {        
+    it('Valida login com credenciais válidas', () => {    
+        cy.url().should('be.equal', `${Cypress.config('baseUrl')}bank/main.jsp`)    
         cy.contains('Hello John Smith').should('be.visible')
     })
 
