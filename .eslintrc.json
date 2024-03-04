@@ -1,0 +1,25 @@
+{
+    "plugins": [
+      "cypress",
+      "chai-friendly",
+      "prettier"
+    ],
+    "rules": {
+        "cypress/no-assigning-return-values": "error",
+        "cypress/no-unnecessary-waiting": "error",
+        "cypress/assertion-before-screenshot": "warn",
+        "cypress/no-force": "warn",
+        "cypress/no-async-tests": "error",
+        "cypress/no-pause": "error",
+        "no-unused-expressions": 0,
+        "chai-friendly/no-unused-expressions": 2,
+        "prettier/prettier": "error"
+    },
+    "env": {
+        "cypress/globals": true
+    },
+    "extends": [
+        "plugin:cypress/recommended",
+        "plugin:prettier/recommended"
+    ]
+}
