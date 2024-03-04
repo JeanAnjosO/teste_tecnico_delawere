@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Install dependecies
-        uses: npm install
+        run: npm install
       - name: Checkout
         uses: actions/checkout@v4      
       - name: Cypress run
