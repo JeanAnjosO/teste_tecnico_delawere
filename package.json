@@ -5,7 +5,8 @@
   "main": "cypress.config.js",
   "scripts": {
     "cy:open": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "lint": "eslint cypress/"
   },
   "keywords": [
     "Teste técnico",
@@ -17,5 +18,14 @@
   "dependencies": {
     "cypress": "^13.6.6",
     "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "@cypress/eslint-plugin-dev": "^5.3.3",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-chai-friendly": "^0.7.4",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5"
   }
 }
