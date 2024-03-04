@@ -21,6 +21,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          working-directory: ./cypress
+          working-directory: ./teste_tecnico_delawere
           build: npm run test
           start: npm start
