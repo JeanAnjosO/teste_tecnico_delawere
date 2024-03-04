@@ -3,7 +3,7 @@ import moment from 'moment'
 const numeroContaSavings = '800002'
 const numeroContaDeposit = '800003'
 const numeroContaCredit = '4539082039396288'
-const dataAtual = moment().format('D/M/YY')
+const dataAtual = moment().format('M/D/YY')
 
 describe('Tela de Transfer Funds - Cenários positivos', () => {
   beforeEach(() => {
