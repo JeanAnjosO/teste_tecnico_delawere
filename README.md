@@ -1,4 +1,4 @@
-# Testes técnico QA Engineer - Delawere
+# Teste técnico QA Engineer - Delawere
 
 Ei, sou o Jean 😊 Esse teste técnico foi feito voltado a vaga de QA Engineer da Delawere. Este projeto contém testes automatizados utilizando o Cypress. O intuito é validar algumas funcionalidades da página Altoro Mutual diante alguns cenários propostos.
 
