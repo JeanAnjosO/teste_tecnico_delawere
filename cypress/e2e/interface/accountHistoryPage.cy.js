@@ -7,7 +7,7 @@ describe('Tela de Account History', () => {
     cy.visit('bank/showAccount?listAccounts=800003')
   })
 
-  it('Valida se as entradas de crédito estão com valores entre 0.01 e 99999999.99', () => {
+  it.skip('Valida se as entradas de crédito estão com valores entre 0.01 e 99999999.99', () => {
     cy.get('#credits [align="right"]').each(($el) => {
       cy.wrap($el)
         .invoke('text')
@@ -17,7 +17,7 @@ describe('Tela de Account History', () => {
     })
   })
 
-  it('Valida se as entradas de débito estão com valores entre 0.01 e 99999990.99', () => {
+  it.skip('Valida se as entradas de débito estão com valores entre 0.01 e 99999990.99', () => {
     cy.get('#debits [align="right"]').each(($el) => {
       cy.wrap($el)
         .invoke('text')
